@@ -4,4 +4,16 @@ node_modules
 .vscode-test/
 *.vsix
 
+# Build outputs
+**/dist/
+webview-ui/build/
+
+# Dependencies
+**/node_modules/
+
+# IDE
+.idea/
+.idea/**/*
+
+# OS files
 .DS_Store
